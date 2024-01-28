@@ -28,6 +28,8 @@ add_subdirectory(gtest-demo)
 add_subdirectory(Warmup_10_CM)
 add_subdirectory(Warmup_1_CM)
 add_subdirectory(Warmup_2_CM)
+add_subdirectory(Warmup_3_CM)
+
 
 
 
