@@ -33,6 +33,8 @@ add_subdirectory(Warmup_4_CM)
 add_subdirectory(Warmup_5_CM)
 add_subdirectory(Warmup_6_CM)
 add_subdirectory(Warmup_7_CM)
+add_subdirectory(Warmup_8_CM)
+
 
 
 
