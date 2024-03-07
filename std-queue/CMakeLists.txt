@@ -12,7 +12,7 @@ add_executable(int_stack_demo
 
 add_executable(
         int_stack_tests
-        int_stack_tests.cc
+        int_stack_tests.c
         int_stack.c
 )
 
