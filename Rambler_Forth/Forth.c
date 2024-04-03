@@ -218,13 +218,25 @@ int main() {
     int_stack_push(&stack, 2);
     int_stack_push(&stack, 3);
     int_stack_push(&stack, 4);
+    int_stack_push(&stack, 47);
+    int_stack_push(&stack, 100);
     int_stack_2swap(&stack);
     int_stack_display(&stack); 
     int_stack_2dup(&stack);
     int_stack_display(&stack); 
     int_stack_2over(&stack);
+    int_stack_2dup(&stack);
     int_stack_display(&stack); 
     int_stack_2drop(&stack);
+    int_stack_display(&stack); 
+    int_stack_2drop(&stack);
+    int_stack_2drop(&stack);
+    int_stack_display(&stack); 
+    int_stack_2drop(&stack);
+    int_stack_2drop(&stack);
+    int_stack_2drop(&stack);
+    int_stack_display(&stack); 
+    int_stack_2drop(&stack);    
     int_stack_display(&stack); 
     return 0;
 }
