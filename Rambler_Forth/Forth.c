@@ -186,23 +186,24 @@ void int_stack_2over(IntStack *stack) {
     int_stack_push(stack, b);
 }
 int main() {
+    // Testing all the operations
     IntStack stack;
     int_stack_init(&stack);
     int_stack_push(&stack, 9);
     int_stack_push(&stack, 12);
     int_stack_push(&stack, 149);
-    int_stack_display(&stack);
+    int_stack_display(&stack); 
     int_stack_add(&stack);
-    int_stack_display(&stack);
-    int_stack_push(&stack, 75);
+    int_stack_display(&stack); 
+    int_stack_push(&stack, 7);
     int_stack_subtract(&stack);
-    int_stack_display(&stack);
+    int_stack_display(&stack); 
     int_stack_push(&stack, 24);
     int_stack_push(&stack, 10);
     int_stack_multiply(&stack);
-    int_stack_display(&stack);
+    int_stack_display(&stack); 
     int_stack_divide(&stack);
-    int_stack_display(&stack);
+    int_stack_display(&stack); 
     int_stack_dup(&stack);
     int_stack_display(&stack);
     int_stack_swap(&stack);
